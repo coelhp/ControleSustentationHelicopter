@@ -1,4 +1,5 @@
 /*
+Seminário TCA
 Sistemas de controle de sustentação em helicópteros tem por objetivo manter o direcionamento da aeronave frente a presença de distúrbios,
 tendo como entrada o nível de acionamento do pedal (NP) e a saída a velocidade angular no rotor (Wr).
 Considerando os estados velocidade do vento (Vv) e frequência da rajada (fv), 𝑥=[𝑉𝑣; 𝑓𝑣], uma parte do movimento específico desse controle possui a dinâmica dada por,
