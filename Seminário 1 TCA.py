@@ -12,7 +12,7 @@ Considerando os estados velocidade do vento (Vv) e frequência da rajada (fv), �
 
 """
 Projete um observador de estados capaz de emular o sistema 5x mais rápido. 
-Demonstre, de forma comparativa entre o sistema original e o observador, o comportamento de cada estado;
+Demonstre, de forma comparativa entre o sistema original e o observador, o comportamento de cada estado.
 """
 # Definição das Matrizes do Sistema
 A = np.array([[0, 1], [-81, -54]])
