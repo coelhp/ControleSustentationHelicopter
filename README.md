@@ -101,17 +101,17 @@ $$\dot{\hat{x}}=A\hat{x}+Bu+L(y-C\hat{x})$$
 
 Em que:
 
-* (\hat{x}) é o vetor de estados estimados;
-* (L) é a matriz de ganho do observador;
-* (y-C\hat{x}) é o erro entre a saída medida e a saída estimada.
+* $$(\hat{x})$$ é o vetor de estados estimados;
+* $$(L)$$ é a matriz de ganho do observador;
+* $$(y-C\hat{x})$$ é o erro entre a saída medida e a saída estimada.
 
 Definindo o erro de estimação como (e=x-\hat{x}), obtém-se, para o modelo nominal:
 
-[
+$$
 \dot{e}=(A-LC)e
-]
+$$
 
-Assim, o posicionamento dos autovalores de (A-LC) determina a dinâmica do erro de estimação.
+Assim, o posicionamento dos autovalores de $$(A-LC)$$ determina a dinâmica do erro de estimação.
 
 No trabalho, investiga-se o posicionamento dos polos do observador para torná-lo cinco vezes mais rápido, conforme o enunciado implementado no código.
 
@@ -119,9 +119,9 @@ No trabalho, investiga-se o posicionamento dos polos do observador para torná-l
 
 Uma estratégia de controle por realimentação de estados pode ser expressa por:
 
-[
+$$
 u=-Kx+r
-]
+$$
 
 Em que (K) é a matriz de ganhos e (r) representa uma referência ou entrada externa, conforme a estrutura adotada.
 
