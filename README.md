@@ -218,7 +218,7 @@ A implementação Python calcula os autovalores do sistema e define polos deseja
 A matriz de ganho é obtida por alocação de polos, utilizando a função place_poles do módulo scipy.signal sobre o sistema dual:
 
 $$
-L=\operatorname{place}(A^T,C^T)^T
+L = \mathrm{place}(A^{T},\,C^{T})^{T}
 $$
 
 A matriz resultante permite construir a dinâmica do erro de estimação:
