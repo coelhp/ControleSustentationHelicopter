@@ -258,13 +258,13 @@ Os resultados quantitativos devem ser interpretados a partir das simulações ex
 
 A estrutura atualmente identificada é:
 
-´´´
+```
 ControleSustentationHelicopter/
 ├── README.md
 ├── Seminário 1 TCA.py
 ├── Seminário 1 TCA.sci
 └── TCAControSustentation.m
-´´´
+```
 
 Descrição dos arquivos
 
@@ -299,32 +299,43 @@ Ambiente de computação numérica e engenharia utilizado para modelagem, análi
 
 8.1. Clonar o repositório
 
+```bash
 git clone https://github.com/coelhp/ControleSustentationHelicopter.git
 cd ControleSustentationHelicopter
-
+```
 8.2. Executar a versão Python
 
 Recomenda-se utilizar um ambiente virtual para isolar as dependências.
 
 Criação do ambiente:
 
+```bash
 python -m venv .venv
+```
 
 No Windows:
 
+```bash
 .venv\Scripts\activate
+```
 
 No Linux ou macOS:
 
+```bash
 source .venv/bin/activate
+```
 
 Instalação das bibliotecas utilizadas:
 
+```bash
 python -m pip install numpy scipy matplotlib
+```
 
 Execução do arquivo:
 
-python "Seminário 1 TCA.py"
+```bash
+python Seminário 1 TCA.py
+```
 
 A implementação utiliza gráficos do Matplotlib e pode abrir janelas para apresentar as respostas simuladas. A execução completa deve ser validada no ambiente local, pois eventuais dependências de interface gráfica e diferenças entre versões podem influenciar o comportamento.
 
