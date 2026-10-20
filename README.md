@@ -176,7 +176,7 @@ Portanto, o modelo é:
 $$
 \dot{x}=
 \begin{bmatrix}
-0 & 1\
+0 & 1;
 -81 & -54
 \end{bmatrix}x+
 \begin{bmatrix}
@@ -203,9 +203,9 @@ $$
 
 Para a matriz apresentada, o polinômio característico é:
 
-[
+$$
 s^2+54s+81=0
-]
+$$
 
 A análise dos polos fornece a referência para o estudo da dinâmica original e para o posicionamento dos polos do observador e do sistema controlado.
 
