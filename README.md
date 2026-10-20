@@ -72,13 +72,13 @@ $$
 
 Em que:
 
-* (x(t)) é o vetor de estados;
-* (u(t)) é o vetor de entradas;
-* (y(t)) é o vetor de saídas;
-* (A) é a matriz de dinâmica do sistema;
-* (B) relaciona as entradas à dinâmica dos estados;
-* (C) relaciona os estados às saídas medidas;
-* (D) representa a transmissão direta entre entrada e saída.
+* $$(x(t))$$ é o vetor de estados;
+* $$(u(t))$$ é o vetor de entradas;
+* $$(y(t))$$ é o vetor de saídas;
+* $$(A)$$ é a matriz de dinâmica do sistema;
+* $$(B)$$ relaciona as entradas à dinâmica dos estados;
+* $$(C)$$ relaciona os estados às saídas medidas;
+* $$(D)$$ representa a transmissão direta entre entrada e saída.
 
 Essa representação permite analisar a estabilidade, a controlabilidade e a observabilidade, além de possibilitar o projeto de controladores e observadores por alocação de polos.
 
