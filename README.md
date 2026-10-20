@@ -10,18 +10,18 @@ O repositório reúne implementações em Python, Scilab e MATLAB para o estudo 
 
 Sumário
 
-1. [Sobre o projeto](#-sobre-o-projeto)
-2. [Objetivos](#-objetivos)
-3. [Fundamentação teórica](#-fundamentação-teórica)
-4. [Modelo matemático](#-modelo-matemático)
-5. [Estratégias de controle](#-estratégias-de-controle)
-6. Estrutura do repositório
-7. Tecnologias utilizadas
-8. Instalação e execução
-9. Análise dos resultados
-10. Limitações e considerações
-11. Possíveis melhorias
-12. Contexto acadêmico
+1. [Sobre o projeto](#-Sobre-o-projeto)
+2. [Objetivos](#-Objetivos)
+3. [Fundamentação teórica](#-Fundamentação-teórica)
+4. [Modelo matemático](#-Modelo-matemático)
+5. [Estratégias de controle](#-Estratégias-de-controle)
+6. [Estrutura do repositório](#-Estrutura-do-repositório)
+7. [Tecnologias utilizadas](#-Tecnologias-utilizadas)
+8. [Instalação e execução](#-Instalação-e-execução)
+9. [Análise dos resultados](#-Análise-dos-resultados)
+10. [Limitações e considerações](#-Limitações-e-considerações)
+11. [Possíveis melhorias](#-Possíveis-melhorias)
+12. [Contexto acadêmico](#-Contexto-acadêmico)
 
 ⸻
 
