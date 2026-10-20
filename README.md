@@ -341,17 +341,17 @@ A implementação utiliza gráficos do Matplotlib e pode abrir janelas para apre
 
 ## 8.3. Executar no Scilab
 
-*  1. Instale o Scilab.
-*  2. Abra o arquivo Seminário 1 TCA.sci no editor do ambiente.
-*  3. Execute o script.
-*  4. Verifique os resultados numéricos e os gráficos gerados.
+1. Instale o Scilab.
+2. Abra o arquivo Seminário 1 TCA.sci no editor do ambiente.
+3. Execute o script.
+4. Verifique os resultados numéricos e os gráficos gerados.
 
 ## 8.4. Executar no MATLAB
 
-*  1. Instale o MATLAB.
-*  2. Abra o arquivo TCAControSustentation.m.
-*  3. Configure o diretório de trabalho para a pasta do repositório.
-*  4. Execute o script e analise as saídas e os gráficos.
+1. Instale o MATLAB.
+2. Abra o arquivo TCAControSustentation.m.
+3. Configure o diretório de trabalho para a pasta do repositório.
+4. Execute o script e analise as saídas e os gráficos.
 
 A execução em MATLAB e Scilab pode depender de funções e recursos específicos de cada ambiente. Os comandos e as versões compatíveis devem ser confirmados por testes.
 
@@ -361,17 +361,18 @@ A avaliação do trabalho deve relacionar os resultados numéricos aos requisito
 
 Recomenda-se organizar a análise em três etapas:
 
-*  1. Sistema original: determinar os polos e interpretar a dinâmica nominal.
-*  2. Observador: verificar os polos de (A-LC), a dinâmica do erro de estimação e a resposta simulada.
-*  3. Sistema realimentado: verificar os polos de (A-BK), o sobressinal e o tempo de acomodação em cada configuração.
+1. Sistema original: determinar os polos e interpretar a dinâmica nominal.
+2. Observador: verificar os polos de (A-LC), a dinâmica do erro de estimação e a resposta simulada.
+3. Sistema realimentado: verificar os polos de (A-BK), o sobressinal e o tempo de acomodação em cada configuração.
 
 Uma tabela comparativa pode ser utilizada para registrar os resultados:
 
-Configuração	Polos de malha fechada	Sobressinal	Tempo de acomodação
-Sistema original	A calcular	A medir	A medir
-Sistema com observador	A calcular	A medir	A medir
-Realimentação — configuração inicial	A calcular	A medir	A medir
-Realimentação — configuração ajustada	A calcular	A medir	A medir
+Configuração | Polos de malha fechada |	Sobressinal |	Tempo de acomodação |
+----|----|----|----|
+Sistema original |	A calcular	| A medir	| A medir |
+Sistema com observador |	A calcular	| A medir |	A medir|
+Realimentação configuração inicial |	A calcular | A medir	| A medir|
+Realimentação configuração ajustada |	A calcular | 	A medir |	A medir|
 
 Os campos devem ser preenchidos com valores obtidos por execução dos códigos. Os requisitos de projeto não devem ser apresentados como resultados medidos sem a devida verificação.
 
@@ -405,8 +406,6 @@ Disciplina: Tópicos de Controle Avançado (TCA)
 Curso: Engenharia de Controle e Automação
 Tema: modelagem em espaço de estados, observadores e realimentação de estados
 Natureza: projeto acadêmico com simulações computacionais
-
-Repositório: github.com/coelhp/ControleSustentationHelicopter
 
 ⸻
 
