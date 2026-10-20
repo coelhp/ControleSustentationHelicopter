@@ -59,13 +59,16 @@ Estudar e aplicar técnicas de controle avançado em um sistema dinâmico linear
 
 Um sistema linear e invariante no tempo pode ser representado por:
 
-[
-\dot{x}(t)=Ax(t)+Bu(t)
-]
 
-[
+$$
+\dot{x}(t)=Ax(t)+Bu(t)
+$$
+
+$$
 y(t)=Cx(t)+Du(t)
-]
+$$
+
+
 
 Em que:
 
@@ -93,9 +96,8 @@ Quando nem todos os estados podem ser medidos diretamente, pode-se utilizar um o
 
 O observador de Luenberger é descrito por:
 
-[
 \dot{\hat{x}}=A\hat{x}+Bu+L(y-C\hat{x})
-]
+
 
 Em que:
 
