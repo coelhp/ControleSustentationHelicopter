@@ -96,7 +96,7 @@ Quando nem todos os estados podem ser medidos diretamente, pode-se utilizar um o
 
 O observador de Luenberger é descrito por:
 
-\dot{\hat{x}}=A\hat{x}+Bu+L(y-C\hat{x})
+$$\dot{\hat{x}}=A\hat{x}+Bu+L(y-C\hat{x})$$
 
 
 Em que:
