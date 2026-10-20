@@ -176,7 +176,7 @@ Portanto, o modelo é:
 $$
 \dot{x}=
 \begin{bmatrix}
-0 & 1;
+0 & 1\\
 -81 & -54
 \end{bmatrix}x+
 \begin{bmatrix}
