@@ -84,7 +84,7 @@ Essa representação permite analisar a estabilidade, a controlabilidade e a obs
 
 3.2. Análise de estabilidade
 
-A estabilidade assintótica do sistema linear contínuo pode ser avaliada pelos autovalores da matriz (A).
+A estabilidade assintótica do sistema linear contínuo pode ser avaliada pelos autovalores da matriz $$(A)$$.
 
 Para um sistema linear invariante no tempo, a estabilidade assintótica requer que todos os autovalores tenham parte real estritamente negativa.
 
@@ -123,17 +123,17 @@ $$
 u=-Kx+r
 $$
 
-Em que (K) é a matriz de ganhos e (r) representa uma referência ou entrada externa, conforme a estrutura adotada.
+Em que $$(K)$$ é a matriz de ganhos e $$(r)$$ representa uma referência ou entrada externa, conforme a estrutura adotada.
 
 Substituindo a lei de controle no modelo da planta, obtém-se:
 
-[
+$$
 \dot{x}=(A-BK)x+Br
-]
+$$
 
-O posicionamento dos polos de (A-BK) permite modificar a dinâmica de malha fechada.
+O posicionamento dos polos de $$(A-BK)$$ permite modificar a dinâmica de malha fechada.
 
-Quando os estados são estimados por um observador, a lei de controle pode utilizar (\hat{x}) em lugar de (x). Essa implementação requer a consideração conjunta do controlador e do observador.
+Quando os estados são estimados por um observador, a lei de controle pode utilizar $$(\hat{x})$$ em lugar de $$(x)$$. Essa implementação requer a consideração conjunta do controlador e do observador.
 
 3.5. Requisitos de desempenho
 
@@ -150,30 +150,30 @@ Esses indicadores devem ser avaliados sobre a resposta simulada, considerando a 
 
 O código Python apresenta o seguinte modelo em espaço de estados:
 
-[
+$$
 A=\begin{bmatrix}
 0 & 1\
 -81 & -54
 \end{bmatrix}
-]
+$$
 
-[
+$$
 B=\begin{bmatrix}
 0\
 1
 \end{bmatrix}
-]
+$$
 
-[
+$$
 C=\begin{bmatrix}
 54 & 0{,}9
 \end{bmatrix},
 \qquad D=\begin{bmatrix}0\end{bmatrix}
-]
+$$
 
 Portanto, o modelo é:
 
-[
+$$
 \dot{x}=
 \begin{bmatrix}
 0 & 1\
@@ -183,11 +183,11 @@ Portanto, o modelo é:
 0\
 1
 \end{bmatrix}u
-]
+$$
 
-[
+$$
 y=\begin{bmatrix}54 & 0{,}9\end{bmatrix}x
-]
+$$
 
 O vetor de estados é definido no enunciado do código em termos de variáveis associadas à velocidade do vento e à frequência da rajada.
 
@@ -197,9 +197,9 @@ A interpretação física completa, as unidades e a relação detalhada entre a 
 
 Os polos são obtidos a partir dos autovalores de (A), ou, equivalentemente, das raízes de:
 
-[
+$$
 \det(sI-A)=0
-]
+$$
 
 Para a matriz apresentada, o polinômio característico é:
 
