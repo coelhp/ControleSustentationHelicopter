@@ -152,7 +152,7 @@ O código Python apresenta o seguinte modelo em espaço de estados:
 
 $$
 A=\begin{bmatrix}
-0 & 1\
+0 & 1\\
 -81 & -54
 \end{bmatrix}
 $$
@@ -217,15 +217,15 @@ A implementação Python calcula os autovalores do sistema e define polos deseja
 
 A matriz de ganho é obtida por alocação de polos, utilizando a função place_poles do módulo scipy.signal sobre o sistema dual:
 
-[
+$$
 L=\operatorname{place}(A^T,C^T)^T
-]
+$$
 
 A matriz resultante permite construir a dinâmica do erro de estimação:
 
-[
+$$
 A_e=A-LC
-]
+$$
 
 A análise dessa matriz permite verificar se os polos efetivamente calculados correspondem aos requisitos estabelecidos.
 
