@@ -1,4 +1,4 @@
-Controle de Sustentação de Helicóptero
+# Controle de Sustentação de Helicóptero
 
 Estudo de modelagem, análise dinâmica, estimação de estados e projeto de sistemas de controle aplicado a uma dinâmica linear associada à sustentação e à estabilidade de um helicóptero.
 
