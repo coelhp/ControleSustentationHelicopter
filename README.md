@@ -60,13 +60,9 @@ Estudar e aplicar técnicas de controle avançado em um sistema dinâmico linear
 Um sistema linear e invariante no tempo pode ser representado por:
 
 
-$$
-\dot{x}(t)=Ax(t)+Bu(t)
-$$
+$\dot{x}(t)=Ax(t)+Bu(t)$
 
-$$
-y(t)=Cx(t)+Du(t)
-$$
+$y(t)=Cx(t)+Du(t)$
 
 
 
